@@ -1,0 +1,432 @@
+/************************************************** SPECIAL **************************************************************/
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 6.5em;
+    }
+    #website-logo {
+        top: 10%;
+    }
+    .nav-icon {
+        position: absolute;
+        top: 5%;
+        left: 72%;
+    }
+    .nav-expanded {
+        position: absolute;
+        top: 39%;
+        left: 67%;
+    }
+    .mobile-searchbox {
+        top: 55%;
+        left: 12%;
+        width: 20em;
+    }
+    .mobile-searchbutton {
+        left: 55%;
+    }
+    #searchbox input {
+        width: 17em;
+    }
+    nav .form-inline button {
+        margin-left: -2em;
+    }
+    .search-button {
+        top: 12%;
+        left: 10%;
+    }
+    #background-image, .header {
+        height: 60vh;
+    }
+    
+    .continent-gallery li span {
+        font-size: 1.5em;
+    }
+    
+    .gallery {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .gallery li {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+    
+    /****** circles ******/
+    #circle1 {
+        left: 75%;
+    }
+    #circle2 {
+        left: 80%;
+    }
+    #circle3 {
+        left: 76%;
+    }
+    /*****************/
+    
+    .about-me-container {
+        position: relative;
+    }
+    
+    .about-me-third iframe {
+        margin-left: 8em;
+        width: 320px;
+        height: 200px;
+    }
+    
+    #overlay img {
+      margin-top: 25%;
+        height: 60vh;
+        padding: 1em;
+        width: 90%;
+    } 
+    
+    #overlay::after {
+        top: 20%;
+        left: 90%;
+    }
+}
+
+/************************************************** MEDIUM SCREENS **************************************************************/
+
+@media screen and (min-width: 768px) {
+    
+   
+    
+    .navbar {
+        padding-bottom: 3.5em;
+    }
+    
+    #website-logo {
+         width: 2.5rem;
+        height: 2.5rem;
+        position: inherit;
+    }
+    
+    .dropdown-menu {
+        margin-top: 1em;
+    }
+    
+    .dropdown-menu a:first-child::before{
+        top: -0.6em;
+        left: 47%;
+    }
+    
+    #searchbox {
+        margin-top: 0.5em;
+        margin-right: 2em;
+        float: right;
+    }
+    #searchbox input {
+        width: 20em;
+    }
+    
+    
+    
+    #home-wrapper, #wrapper {
+        margin-top: 5em;
+    }
+    h1 {
+        top: 12%;
+    }
+    #background-image, .header {
+        height: 70vh;
+    }
+    
+    .breadcrumb li a::after{
+        top: 135%;
+    }
+
+    #wrapper .content {
+        width: 80%;
+        padding: 1em; 
+    }
+    .content-headline {
+        font-size: 2em;
+    
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    .continent-gallery {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .continent-gallery li {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+    .continent-gallery li span {
+        height: 10%;
+    }
+    .gallery {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .gallery li {
+        -ms-flex-preferred-size: 33%;
+        flex-basis: 50%;
+    }
+    .gallery li p {
+        font-size: 80%;
+        height: 8em;
+    }
+    
+    
+    .listwrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    /****** circles ******/
+    #circle1 {
+        left: 85%;
+    }
+    #circle2 {
+        left: 88%;
+    }
+    #circle3 {
+        left: 86%;
+    }
+    #circle4 {
+        left: 86%;
+    }
+    #circle5 {
+        left: 85%;
+    }
+    #circle6 {
+        left: 88%;
+    }
+    #circle7 {
+        left: 88%;
+    }
+    #circle8 {
+        left: 85%;
+    }
+    #circle9 {
+        left: 88%;
+    }
+    /*****************/
+    
+    .alphabet-column {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+    
+    .second-alphabet-column {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    
+    .third-alphabet-column {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    
+    .about-me-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .about-me-first, .about-me-second, .about-me-third {
+        -ms-flex-preferred-size:100%;
+        flex-basis:100%;
+    }
+    .about-me-third iframe {
+        margin-left: 9em;
+        width: 360px;
+        height: 200px;
+    }
+    .about-me-fourth, .about-me-fifth {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .about-content p::first-letter {
+        float: left;
+        margin-top: -5px;
+        margin-right: 5px;
+        border-radius: 0px;
+        padding: 0.1em;
+        line-height: 1;
+        font-weight: bold;
+        font-size: 300%;
+        background-color: hsla(212, 87%, 62%, 1);
+    }
+
+    
+    #overlay img {
+        padding: 1.2em;
+        margin-top: 10%;
+        width: 70%;
+        height: 60vh;
+    } 
+    #overlay p {
+        font-size: 75%;
+        margin-top: -1.8em;
+    }
+            
+    #overlay::after {
+        font-size: 180%;
+        top: 10%;
+        left: 93%;
+    }
+}
+
+/************************************************** LARGE SCREENS **************************************************************/
+
+@media screen and (min-width: 1200px) {
+    
+    #website-logo {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .nav-link {
+        font-size: 115%;
+    }
+    
+    #searchbox input {
+        width: 30em;
+    }
+    
+    .dropdown-menu a:first-child::before{
+        left: 55%;
+    }
+    
+    #wrapper .content {
+        margin-top: -20em;
+    }
+    
+    .breadcrumb li a {
+        font-size: 100%;
+    }
+    
+    .breadcrumb li a::after{
+        top: 134%;
+    }
+    
+    h3 {
+        font-size: 1.6em;
+    }
+    .continent-gallery li span {
+        font-size: 1.75em;
+        height: 12%;
+    }
+    .continent-gallery li small {
+        font-size: 60%;
+    }
+    .gallery li {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 33%;
+    }
+    .gallery li p {
+        font-size: 80%;
+    }
+    
+    /****** circles ******/
+    #circle1 {
+        top: 15%;
+        left: 90%;
+    }
+    #circle2 {
+        top: 18%;
+        left: 93%;
+    }
+    #circle3 {
+        top: 24%;
+        left: 91%;
+    }
+    #circle4 {
+        top: 44%;
+        left: 91%;
+    }
+    #circle5 {
+        top: 50%;
+        left: 90%;
+    }
+    #circle6 {
+        top: 52%;
+        left: 93%;
+    }
+    #circle7 {
+        top: 72%;
+        left: 91%;
+    }
+    #circle8 {
+        top: 76%;
+        left: 90%;
+    }
+    #circle9 {
+        top: 80%;
+        left: 93%;
+    }
+    /*****************/
+    
+    
+    .alphabet-column {
+        -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    }
+    
+    .second-alphabet-column {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 1;
+    }
+    
+    .third-alphabet-column {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 2;
+    }
+    
+    .about-me-third iframe {
+        margin-left: 15em;
+        width: 640px;
+        height: 360px;
+    }
+    
+    
+    
+    #overlay img {
+        padding: 1em;
+        margin-top: 8%;
+        width: 60%;
+        height: 65vh;
+    }
+    #overlay::after {
+        font-size: 200%;
+    }
+    
+}
+
+
+

@@ -1,0 +1,39 @@
+CAPITAL & LARGEST CITY:
+Capital:
+Largest City (population):
+
+SOCIETY:
+Population Size:
+Languages:
+Religions:
+Literacy Rate:
+
+
+GEOGRAPHY:
+Total Area:
+Climate: 
+Terrain:
+Border Countries:
+Natural Hazards:
+
+GOVERNMENT:
+Form of Government:
+Current Leader:
+National Symbol(s):
+
+ECONOMY:
+GDP:
+GDP Growth Rate:
+GDP Per Capita:
+Industries:
+Unemployment Rate:
+
+FUN FACT:
+
+
+
+*** sources:
+https://www.cia.gov/library/publications/the-world-factbook/geos/ac.html
+World Bank
+Wikipedia
+https://www.britannica.com

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AwesomePlaces | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../design.css">
+    <link rel="stylesheet" href="../responsive.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top">
+            
+          <div class="container">
+              
+            <a href="home.html" class="navbar-brand">
+              <img src="../img/awesome-places-logo.png" class="img-fluid rounded" id="website-logo" alt="">
+            </a>
+            <div class="nav-icon center-block">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#continents" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Continents</a>
+                  <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+                    <a class="dropdown-item" href="north-america.html">North America</a>
+                    <a class="dropdown-item" href="south-america.html">South America</a>
+                    <a class="dropdown-item" href="africa.html">Africa</a>
+                    <a class="dropdown-item" href="asia.html">Asia</a>
+                    <a class="dropdown-item" href="europe.html">Europe</a>
+                    <a class="dropdown-item" href="oceania.html">Oceania</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="list.html">List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="quiz.html">Quiz</a>
+              </li>
+            </ul>
+            <img src="../img/search-icon.png" class="search-button" alt="">
+            <form class="form-inline" id="searchbox">
+                <input class="form-control" type="text" placeholder="search...">
+                <button class="btn" type="submit">
+                    <img src="../img/search-icon.png" class="search-icon img-fluid" alt="">
+                </button>
+            </form>
+          </div>
+        </nav>
+
+    <div id="wrapper">  
+        <div class="filler">
+        </div>
+        
+        <!--  Content --> 
+        <div class="content">
+                <div id="quiz" class="centered grid__col--8">
+                    <div id="quizIntro">
+                        <h2 id="quizIntroHeader">Test your knowledge of the different awesome places featured on this site!</h2>
+                        <button id="quizStartButton">Start</button>
+                        <br><br><small>(The photo credits of the images of places displayed in the quiz section are shown in their corresponding continent page.)</small>
+                    </div>
+
+                    <div id="quizContent">
+                        <h2 id="question" class="headline-secondary--grouped"></h2>
+
+                        <!--<p id="choice0"></p>-->
+                        <button id="choice0" class="btn--default"></button><br>
+
+                        <!--<p id="choice1"></p>-->
+                        <button id="choice1" class="btn--default"></button>
+
+                    <div>
+                        <p id="progress"></p>
+                    </div>
+                    <div>
+                        <p id="revealAnswer"></p>
+                    </div>
+                    <div>
+                        <button id="nextButton">Next</button>
+                    </div>
+                    
+                    
+                </div>
+            
+        </div>              <!--    content end -->
+    </div>                  <!--    wrapper end -->
+        
+    <footer>
+        <ul>
+          <li>
+            <a href="http://facebook.com/rejisama">
+              <img src="../img/facebook-wrap.png" alt="Facebook logo" class="social-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="http://twitter.com/nogoodreji">
+              <img src="../img/twitter-wrap.png" alt="Twitter logo" class="social-icon">
+            </a>
+          </li>
+
+            <li class="footer-link"><a href="about.html">About</a>
+            </li>
+            <li class="footer-link"><a href="about.html#contact-details">Contact</a>
+            </li>
+
+        </ul>
+
+        <small>&copy; 2016 AwesomePlaces.com. All rights reserved.</small>
+
+      </footer> 
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../javascript.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

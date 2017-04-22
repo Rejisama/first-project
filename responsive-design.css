@@ -1,0 +1,285 @@
+
+
+/***************************************************** MEDIUM SCREENS ************************************************************/
+
+@media screen and (min-width: 768px) {
+    
+    /********************** NAV *************************/
+    
+    .navbar {
+        padding-bottom: 3em;
+    }
+    
+    #website-logo {
+         width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .dropdown-menu {
+        margin-top: 1em;
+    }
+    
+    .dropdown-menu a:first-child::before{
+        top: -0.6em;
+        left: 47%;
+    }
+    
+    #searchbox {
+        margin-top: 0.5em;
+        margin-right: 2em;
+        float: right;
+    }
+    #searchbox input {
+        width: 20em;
+    }
+    
+    /********************** HEADER *************************/
+    
+    #home-wrapper, #wrapper {
+        margin-top: 5em;
+    }
+    h1 {
+        top: 12%;
+    }
+    #background-image, .header {
+        height: 70vh;
+    }
+    
+    /********************** RANDOM BOXES *************************/
+    
+    .content .random-boxes {
+        font-size: 90%;
+       -webkit-box-align: start;
+       -ms-flex-align: start;
+       -ms-grid-row-align: flex-start;
+       align-items: flex-start;
+       padding-left: 0;
+       border-right: dotted 3px hsla(34,85%,15%,1);
+    }
+    
+    .random-facts, .random-picture {
+        width: 90%;
+        height: 10em;
+    }
+    
+    /********************** CONTENT *************************/
+    
+    .breadcrumb {
+        font-size: 0.8em;         
+    }
+    
+    h2 {
+        font-size: 1.2em;
+        margin-top: 2em;
+        padding: 0.5em;
+    }
+    
+    #wrapper .continent-page {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+    }
+    .col {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 50%;
+        flex: 1 50%;
+    }
+            
+    .country-list {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        margin-left: -2em;
+    }
+    .country-list li {
+        padding: 0.5em;
+        width: 70%;
+    }
+    .country-list li a {
+        font-size: 70%;
+        line-height: 250%;
+    }
+    .country-list img {
+        width: 1.5em;
+        height: 1em;
+        margin-right: 0.5em;
+    }
+    .continent-page .continent-map img {
+        width: 85%;
+        height: 30vh;
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+    
+    .continent-page .continent-map .map-hover-text {
+        font-size: 90%;
+        left: 15%;
+    }
+    
+    #wrapper .content {
+        margin-top: -25em;
+        width: 85%;
+        padding: 1em; 
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    
+   .content .first {
+        max-width: 25%; 
+       -webkit-box-ordinal-group: 0; 
+       -ms-flex-order: -1; 
+       order: -1;
+    }
+    
+    .content .second {
+        max-width: 70%; 
+     }
+    
+    /***** about **********/
+    .about-content p::first-letter {
+        float: left;
+        margin-top: -2px;
+        margin-right: 5px;
+        border-radius: 15px;
+        line-height: 1;
+        font-weight: bold;
+        font-size: 300%;
+    }
+    
+    /******** javascript **********/
+    
+    
+    #overlay img {
+        padding: 1.2em;
+        margin-top: 10%;
+        width: 70%;
+        height: 70vh;
+} 
+    }
+    #overlay p {
+        font-size: 75%;
+        margin-top: -1.8em;
+    }
+            
+    #overlay::after {
+        font-size: 180%;
+        top: 10%;
+        left: 90%;
+    }
+}
+
+
+/***************************************************** SPECIAL  ************************************************************/
+
+@media screen and (min-width: 576px) and (max-width: 784px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 7em;
+    }
+    .nav-icon {
+        position: absolute;
+        top: 5%;
+        left: 72%;
+    }
+    .nav-expanded {
+        position: absolute;
+        top: 39%;
+        left: 67%;
+    }
+    .mobile-searchbox {
+       position: absolute;
+        left: 40%;
+    }
+    #searchbox input {
+        width: 17em;
+    }
+    nav .form-inline button {
+        margin-left: -2em;
+    }
+    #background-image, .header {
+        height: 60vh;
+    }
+    
+    #wrapper .content {
+        margin-top: -22em;
+    }
+    
+    .random-facts, .random-picture {
+        width: 90%;
+        height: 10em;
+    }
+    .continent-page .continent-map img {
+        width: 80%;
+        height: 35vh;
+    }
+    
+    #overlay img {
+      margin-top: 25%;
+        height: 60vh;
+        padding: 1em;
+        width: 90%;
+    } 
+    
+    #overlay::after {
+        top: 20%;
+        left: 90%;
+    }
+}
+
+
+
+/***************************************************** LARGE SCREENS ************************************************************/
+
+@media screen and (min-width: 1200px) {
+    
+    #website-logo {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .nav-link {
+        font-size: 115%;
+    }
+    
+    #searchbox input {
+        width: 30em;
+    }
+    
+    .dropdown-menu a:first-child::before{
+        left: 55%;
+    }
+    
+    #wrapper .content {
+        margin-top: -20em;
+    }
+    
+    .random-facts, .random-picture {
+        width: 90%;
+        height: 17em;
+    }
+    
+    #overlay img {
+        padding: 1em;
+        margin-top: 8%;
+        width: 60%;
+        height: 65vh;
+    }
+    #overlay::after {
+        font-size: 200%;
+    }
+    
+}
